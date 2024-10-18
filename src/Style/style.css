@@ -1,0 +1,540 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ #navbar .vr{
+    height: 50px;
+    width: 1px;
+    background-color: white;
+}
+#home #imagetext{
+    left: 130px;
+    overflow-y: hidden;
+    margin-top: 180px;
+}
+#home #verticalheight{
+    height: 100px;
+    width: 5px;
+    background-color: black;
+}
+#home #service
+{
+    position: relative;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: -29px;
+}
+#home #icon{
+    position: absolute;
+    margin-top: -250px;
+    left: 280px;
+}
+#home #icon1{
+    position: absolute;
+    margin-top: -250px;
+    left: 650px;
+}
+#home #icon2{
+    position: absolute;
+    margin-top: -250px;
+    left: 1015px;
+}
+#home #icon3{
+    position: absolute;
+    margin-top: -250px;
+    left: 280px;
+}
+#home #icon4{
+    position: absolute;
+    margin-top: -250px;
+    left: 650px;
+}
+#home #icon5{
+    position: absolute;
+    left: 1017px;
+    margin-top: -260px;
+}
+#home #service a:hover .arrow{
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+#home #service1 a:hover .arrow{
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+#home #service2 a:hover .arrow{
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+#home #service3 a:hover .arrow{
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+#home #portfolio a:hover .arrow{
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+#home #form{
+    position: absolute;
+    margin-top: -337px;
+    z-index: 2;
+    margin-left: 50px;
+}
+#home #flexitems .vr{
+    height: auto;
+    color: white;
+    border-right-style: dashed;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#home #flexitems {
+    position: relative;
+    z-index: 1;
+    margin-top: -50px;
+}
+#service #flexitems .vr{
+    height: auto;
+    color: black;
+    border-right-style: dashed;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#service #flexitems {
+    position: relative;
+    z-index: 1;
+    margin-top: -50px;
+}
+#service .airfright{
+    position: relative;
+    left: 65px;
+    margin-top: -35px;
+}
+#service #relativerow{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+    overflow-y: hidden;
+}
+#service .absoluteimage
+{
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+#service #rowcol{
+    padding-left: 0px;
+}
+@media (min-width: 992px)
+{
+    #about #circlepadding .p-lg-3
+    {
+        padding:  1.3rem !important;
+    }
+}
+@media (min-width: 450px) and (max-width: 768px) {
+    #about #circlepadding .p-md-2 {
+        padding: 2rem !important;
+    }
+}
+
+@media (max-width: 770px)
+{
+     #navbar h4{
+        font-size: 1rem !important;
+    }
+    #home #verticalheight{
+        height: 160px !important;
+    }
+    #home #imagetext{
+        width: 210px !important;
+        height: 210px !important;
+        left: 85px !important;
+    }
+    #home #header{
+        padding-bottom: 50% !important;
+        overflow-y: hidden !important;
+    }
+    #home #headercol
+    {
+        margin-top: 50px !important;
+        margin-left: 10px !important;
+    }
+    #home #icon1{
+        left: 570px !important;
+    }
+    #home #icon{
+        left: 235px !important;
+    }
+    #home #icon2{
+        left: 235px !important;
+    }
+    #home #icon3{
+        left: 570px !important;
+    }
+    #home #icon4{
+        left: 235px !important;
+    }
+    #home #icon5{
+        left: 560px !important;
+    }
+    #home #form{
+        margin-left: 50px !important;
+        position: absolute !important;
+        margin-top: -36px !important;
+    }
+    #home #fonttext{
+        font-size: xx-large !important;
+    }
+    #home #formabsolute{
+        padding-top: 0px !important;
+        padding-bottom: 500px !important;
+        overflow-y: hidden !important;
+    }
+    #home #form h3{
+        font-size: large !important;
+    }
+    #home #portfolio{
+    padding-bottom: 350px;
+    overflow: hidden;
+    }
+    #service #header{
+        padding-bottom: 50% !important;
+        overflow-y: hidden !important;
+    }
+    #service #headercol
+    {
+        margin-top: 50px !important;
+        margin-left: 10px !important;
+    }
+    #service .airfright{
+        left: 40px !important;
+    }
+    #service .airfright h3{
+        font-size: large !important;
+    }
+    #service #relativerow{
+        position: static !important;
+        padding-top: 0px !important;
+        padding-left: 0px !important;
+        overflow-y: none !important;
+    }
+    #service .absoluteimage
+{
+  width: 100% !important;
+  height: 100% !important;
+  position: static !important;
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+  padding-left: 12px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+#career #header{
+    padding-bottom: 50% !important;
+    overflow-y: hidden !important;
+}
+#career #headercol
+{
+    margin-top: 50px !important;
+    margin-left: 10px !important;
+}
+#career #cargo{
+    margin-left: 50px !important;
+}
+#career #warehouse{
+    margin-left: 50px !important;
+}
+#career #storage{
+    margin-left: 50px !important;
+}
+#career #air{
+    margin-left: 30px !important;
+}
+#tracking #header{
+    padding-bottom: 50% !important;
+    overflow-y: hidden !important;
+}
+#tracking #headercol
+{
+    margin-top: 50px !important;
+    margin-left: 10px !important;
+}
+#about #header{
+    padding-bottom: 50% !important;
+    overflow-y: hidden !important;
+}
+#about #headercol
+{
+    margin-top: 50px !important;
+    margin-left: 10px !important;
+}
+}
+@media (max-width: 450px)
+{
+    #navbar h3{
+        font-size: 1.5rem !important;
+        padding: 55px 0px 0px 5px !important;
+    }
+    #navbar h4{
+        font-size: 0.7rem !important;
+    }
+    #navbar .icon1{
+        width: 20px;
+    }
+     #navbar .icon2{
+        width: 20px;
+    }
+     #navbar .icon3{
+        width: 20px;
+    }
+    #navbar .icon4{
+        width: 20px;
+    }
+     #navbar .icon5{
+        width: 20px;
+    }
+    #navbar .vr{
+        height: 90%;
+        width: 1px;
+        background-color: white;
+        padding-left: 10px;
+    }
+    #home #header{
+        padding-bottom: 100% !important;
+    }
+    #home #headercol
+    {
+        margin-top: 30px !important;
+    }
+    #home #icon{
+        margin-top: -206px !important;
+        left: 230px !important;
+    }
+    #home #icon1{
+        left: 225px !important;
+        margin-top: -205px;
+    }
+    #home #icon2{
+        margin-top: -210px !important;
+        left: 225px !important;
+    }
+    #home #icon3{
+        left: 230px !important;
+        margin-top: -240px !important;
+    }
+    #home #icon4{
+        left: 230px !important;
+        margin-top: -240px !important;
+    }
+    #home #icon5{
+        left: 230px !important;
+        margin-top: -240px !important;
+    }
+    #home #display{
+        font-size: larger !important;
+    }
+    #home #form h3{
+        font-size: medium !important;
+    }
+    #home #form{
+        margin-top: -129px !important;
+    }
+    #home #flexitems .vr{
+        width: 100% !important;
+        min-height: 0rem !important;
+        height: 1px !important;
+        margin-left: 0px !important; 
+    }
+    #service #header{
+        padding-bottom: 100% !important;
+    }
+    #service #headercol
+    {
+        margin-top: 30px !important;
+    }
+    #service #flexitems .vr{
+        width: 100% !important;
+        min-height: 0rem !important;
+        height: 1px !important;
+        margin-left: 0px !important; 
+    }
+    #service .airfright{
+        left: 65px !important;
+    }
+    #service .absoluteimage
+    {
+      padding-left: 0px !important;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+    #service #rowcol
+    {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #career #header{
+        padding-bottom: 100% !important;
+    }
+    #career #headercol
+    {
+        margin-top: 30px !important;
+    }
+    #career #cargo{
+        margin-left: 150px !important;
+    }
+    #career #warehouse{
+        margin-left: 150px !important;
+    }
+    #career #storage{
+        margin-left: 150px !important;
+    }
+    #career #air{
+        margin-left: 150px !important;
+    }
+    #tracking #header{
+        padding-bottom: 100% !important;
+    }
+    #tracking #headercol
+    {
+        margin-top: 30px !important;
+    }
+    #about #header{
+        padding-bottom: 100% !important;
+    }
+    #about #headercol
+    {
+        margin-top: 30px !important;
+    }
+}
+@media (max-width: 380px){
+    #home #verticalheight{
+        height: 180px !important;
+    }
+    #home #header{
+        padding-bottom: 100% !important;
+    }
+    #home #form{
+        margin-top: -129px !important;
+        margin-left: 0px !important;
+    }
+    #service #header{
+        padding-bottom: 100% !important;
+    }
+    #career #header{
+        padding-bottom: 100% !important;
+    }
+    #tracking #header{
+        padding-bottom: 100% !important;
+    }
+    #about #header{
+        padding-bottom: 100% !important;
+    }
+}
+@media (max-width: 320px)
+{
+    #navbar h3{
+        font-size: 1.5rem !important;
+        padding: 60px 0px 0px 0px !important;
+    }
+    #home #header h3{
+        font-size: medium !important;
+    }
+    #home #header h2{
+        font-size: medium !important;
+    }
+    #home #header .display-1{
+        font-size:xx-large !important;
+    }
+    #home #imagetext{
+        width: 190px !important;
+        height: 190px !important;
+        left: 60px !important;
+    }
+    #home #icon{
+        margin-top: -235px !important;
+        left: 180px !important;
+    }
+    #home #icon1{
+        left: 180px !important;
+        margin-top: -235px !important;
+    }
+    #home #icon2{
+        left: 180px !important;
+        margin-top: -235px !important;
+    }
+    #home #icon3{
+        left: 180px !important;
+        margin-top: -240px !important;
+    }
+    #home #icon4{
+        left: 180px !important;
+    }
+    #home #icon5{
+        left: 180px !important;
+    }
+    #home #service
+{
+    width: auto !important;
+    margin-left: 0px !important;
+}
+#home #form{
+    margin-top: -129px !important;
+}
+#home #fonttext{
+    font-size: large !important;
+}
+#service #header h3{
+    font-size: medium !important;
+}
+#service #header h2{
+    font-size: medium !important;
+}
+#service #header .display-1{
+    font-size:xx-large !important;
+}
+#career #header h3{
+    font-size: medium !important;
+}
+#career #header h2{
+    font-size: medium !important;
+}
+#career #header .display-1{
+    font-size:xx-large !important;
+}
+#career #cargo{
+    margin-left: 120px !important;
+}
+#career #warehouse{
+    margin-left: 120px !important;
+}
+#career #storage{
+    margin-left: 125px !important;
+}
+#career #air{
+    margin-left: 120px !important;
+}
+#tracking #header h3{
+    font-size: medium !important;
+}
+#tracking #header h2{
+    font-size: medium !important;
+}
+#tracking #header .display-1{
+    font-size:xx-large !important;
+}
+#about #header h3{
+    font-size: medium !important;
+}
+#about #header h2{
+    font-size: medium !important;
+}
+#about #header .display-1{
+    font-size:xx-large !important;
+}
+}
